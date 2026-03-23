@@ -1,0 +1,17 @@
+{
+  "rewriteConfig": {
+    "dynamicRegistration": true
+  },
+  "renders": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ]
+}
