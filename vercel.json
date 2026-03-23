@@ -1,8 +1,5 @@
 {
-  "rewriteConfig": {
-    "dynamicRegistration": true
-  },
-  "renders": [
+  "builds": [
     {
       "src": "app.py",
       "use": "@vercel/python"
